@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度一下</title>
+    <style>
+        *{
+        margin: o;
+        padding: 0;   
+      }
+
+        
+        /* 头部 */
+        #head{
+            height: 10%;
+            min-height: 60px;
+            min-width: 1250px;
+           
+            
+        }
+        .head-left{
+            height: 60px;
+            width: 600px;
+            float: left;
+            padding-left: 24px;
+           
+            
+        }
+        
+        
+        
+        .head-left>a{
+            margin-top: 19px;
+            margin-right: 31px;
+            text-decoration: none;
+            color: black;
+            display:table;
+            font: 13px/23px Arial,sans-serif;
+            float: left;
+           
+        }
+        .head-left a:hover{
+            color: #4e6ef2;
+        }
+        /* 身体 */
+        #boby{
+            height: 80%;
+            min-height: 462px;
+            width: 658px;
+            margin: 0 auto;
+           
+            text-align: center;
+
+            
+        }
+        /* 百度的logo */
+        #boby img{
+          height: 129px;
+          width: 270px;
+        }
+        /* 输入框 */
+        .search input{
+            height: 16px;
+            width: 443px;
+            border:2px solid #c4c7ce;
+            padding: 12px 87px 12px 16px;
+            float: left;
+            border-radius: 10px;
+            font-size: 16px;
+
+
+        }
+        /* 搜索一下的框 */
+        .btn input{
+            height: 44px;
+            width: 108px;
+            float: left;
+            background-color: #4e6ef2;
+            border: 0px;
+            font-size: 17px;
+            color: #fff;
+
+        }
+        .search input:focus{
+           border-color: #4e6ef2;
+           outline: none;
+        }
+        .search input:hover{
+            border-color: #a7aab5;
+        }
+        .btn input:hover{
+            background-color: #4662b9;
+        }
+        .box2{
+            height: 24px;
+            width: 658px;
+            margin-top: 45px;
+            
+           float: left;
+            display:table;
+            
+        }
+        
+        .box-left{
+            height: 24px;
+            width: 183px;
+            float: left;
+            text-align: left;
+            font-size: 18px;
+        }
+        .box2 a{
+            text-decoration: none;
+            font-style: normal;
+            color:#222;
+            font-weight: 400;
+        }
+        .box-right{
+            height: 24px;
+            width: 183px;
+            float: right;
+            font-size: 18px;
+            text-align: right;
+            
+        }
+        .new{
+            list-style: none;
+            text-align: left ;
+            margin-top: 10px;
+            display: table;
+            float: left;
+            
+        }
+        .new li{
+            height: 36px;   
+            width: 306px;
+            float: left;
+            
+        }
+        .new li-left{
+            margin-right: 20px;
+            
+        }
+        .new li-right{
+            margin-left: 20px;
+        }
+        .new li a{
+            text-decoration: none;
+            color: #222;
+        }
+        .new a:hover{
+            color: #4e6ef2;
+            text-decoration: underline;
+        }
+        /* 尾部 */
+        #foot{
+            height: 10%;
+            width: 3000px;
+         position: fixed;
+        z-index: 302;
+         bottom: 0;
+        left:10px ;
+        height: 39px;
+        padding-top: 1px;
+       zoom: 1;
+        margin: 0;
+        line-height: 39px;
+        
+        display: inline;
+        }
+        #foot p{
+           font-size: 16px;
+           margin-top: 0%;
+          display:inline-block
+          
+        }
+        #foot p a{
+            text-decoration: none;
+            color: #bbb;
+            text-align: center;
+        }
+
+        #foot a:hover{
+            color: #4662b9;
+
+        }
+    </style>
+</head>
+<body>
+<div id="head">
+    <div class="head-left">
+        <a href="https://news.baidu.com/" target="_blank">新闻</a>
+        <a href="" target="_blank">hao123</a>
+        <a href="" target="_blank">地图</a>
+        <a href="" target="_blank">贴吧</a>
+        <a href="" target="_blank">视频</a>
+        <a href="" target="_blank">图片</a>
+        <a href="" target="_blank">网盘</a>
+        <a href="" target="_blank">文库</a>
+        <a href="" target="_blank"> 更多</a>
+    
+</div>
+<div class="head-right">
+
+</div>
+</div>
+<div id="boby"> 
+    <div class="box1"> 
+        <a href="https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C&sa=ire_dl_gh_logo_texing&rsv_dl=igh_logo_pcs" target="_blank"><img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt=""></a></div>
+    <form action="">
+        <div class="search">
+            <input type="text">
+            <div class="btn">
+                <input type="submit" value="百度一下">
+            </div>
+        </div>
+    </form>
+    <div class="box2">
+        <div class="box-left"><a href="">百度热搜</a></div>
+        <div class="box-right"><a href="">换一换</a></div>
+    </div>
+       <ul class="new">
+            <li class="li-left"><span>1</span><a href="" target="_blank">消防队长吃霸王餐被开除</a></li>
+            <li class="li-right"><span>4</span><a href="" target="_blank">王自如被强执3383万</a></li>
+            <li class="li-left"><span>2</span><a href="" target="_blank">西安一家医院买卖器官</a></li>
+            <li class="li-right"><span>5</span><a href="" target="_blank">向左摆了一家子全家福</a></li>
+            <li class="li-left"><span>3</span><a href="" target="_blank">稳定同居可认定刑法上的家庭成员</a></li>
+            <li class="li-right"><span>6</span><a href="" target="_blank">五角大楼回应美军人自然焚死的现象</a></li>
+        </ul>
+
+   
+</div>
+<div id="foot">
+<p><a href="">关于百度</a></p>
+<p> <a href="">about baidu</a></p>
+<p><a href="">使用百度前必读</a></p>
+<p><a href="">帮助中心</a></p>
+<p><a href="">企业推广</a></p>
+<p><a href="">京公安网11000002000001</a></p>
+<p><span>京ICP证030173号</span></p>
+<p><span>互联网新闻信息服务许可证</span></p>
+
+</div>
+</body>
+</html>
